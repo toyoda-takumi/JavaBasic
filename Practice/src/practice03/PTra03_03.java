@@ -27,9 +27,9 @@ public class PTra03_03 {
 
 
 		if ((num%3)==0) {
-			System.out.println("3で割り切れる数字です");
-		} else {
-			System.out.println("3で割り切れない数字です");
+
+
+
 		}
 
 	}
