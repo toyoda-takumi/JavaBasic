@@ -18,6 +18,9 @@ public class PTra03_09 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
+
+
+
 		int limitNumber=6;
 
 		java.util.Scanner scanner = new java.util.Scanner(System.in);
@@ -27,7 +30,7 @@ public class PTra03_09 {
 		System.out.println(random);
 		int num=random;
 
-		if(!(num>=6)) {
+		if(num>=6) {
 			System.out.println("0〜6の整数を入力してください");
 
 		}

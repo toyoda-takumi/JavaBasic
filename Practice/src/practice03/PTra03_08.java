@@ -34,12 +34,14 @@ public class PTra03_08 {
 		 * ●最後に所持金を表示してプログラム終了
 		 *
 		 * ※ プログラムは何行書いても良いです
-		 */if(num<=1)
-			 System.out.println("money-=num");
-			 else if(num<=2)
-				 System.out.println("money-=num");
-			 else
-				 System.out.println("money-=num");
+		 */
+		money=money-num;
+		if(num==1)
+			 System.out.println("money");
+			 else if(num==2)
+				 System.out.println("money");
+			 else if(num==3)
+				 System.out.println("money");
 			 }
 
 

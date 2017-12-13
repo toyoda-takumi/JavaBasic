@@ -12,7 +12,7 @@ public class PTra04_03 {
 		int random = 0;
 
 		// ★ ランダムで数値が生成された数値が2であった場合にプログラムが終了する条件式にしてください。
-		while (limitNumber<=10) {
+		for (limitNumber=0;limitNumber<=10;limitNumber++) {
 
 		}
 			if(random==2) {

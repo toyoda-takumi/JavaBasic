@@ -10,17 +10,17 @@ public class PTra04_01 {
 	public static void main(String[] args) {
 		// ★ int型の変数numを宣言し、2で初期化してください
 		int num=2;
-		System.out.println(num);
+
 
 
 		// ★ 条件式に、変数numが100を超えた場合にfalseになるような条件を記述してください{
-		if (num>=100) {
-		System.out.println(false);
-		}
+		 if(num<=100==false) {
+
+		}else {
 
 
 			// ★ 変数numを2乗した数を変数numに代入してください
-		num=2*2;
+		num=num*num;
 
 
 			// ★ 変数numの値を出力してください
@@ -28,5 +28,5 @@ public class PTra04_01 {
 
 
 			}
-
+	}
 }
