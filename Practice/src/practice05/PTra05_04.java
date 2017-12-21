@@ -25,10 +25,9 @@ public class PTra05_04 {
 		// ①
 		System.out.println("0～6の整数を入力してください");
 
-		String line = scanner.nextLine();
-
+		String line = scanner.nextLine(); {
 		switch(line) {
-		if(int line>=6;;line++) {
+
 			case "0":
 				System.out.println("日曜");
 				break;
@@ -50,10 +49,8 @@ public class PTra05_04 {
 			case"6":
 				System.out.println("土曜日");
 				break;
-
-			default:
-
-					System.out.println("プログラムを終了します");
+			
+		default:
+		}System.out.println("プログラムを終了します");
 		}
-	}
-}
+	}}

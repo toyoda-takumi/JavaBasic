@@ -27,12 +27,12 @@ public class PTra04_04 {
 		System.out.println("=========< START >==========");
 
 		// ★ 変数progressが変数mapの数より少ない限り繰り返しを行う条件式を記述してください
-		for(progress=0;progress<map;progress++) {
+		for(int i=0;i<100;i++) {
 
 			System.out.println("サイコロを振ります。Enterを押してください");
 
-			// プレイヤーがEnterを押すのを待つ
-			sccaner=nextLine();
+		// プレイヤーがEnterを押すのを待つ
+			scanner.nextLine();
 
 			// サイコロを振ります。0～6未満の数がランダムで変数diceに代入されます
 			int dice = new java.util.Random().nextInt(6);

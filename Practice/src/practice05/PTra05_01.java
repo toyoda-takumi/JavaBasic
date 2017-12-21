@@ -11,7 +11,7 @@ public class PTra05_01 {
 
 		// ★ int型の変数numを宣言し、5で初期化してください
 		int num=5;
-		System.out.println(5);
+		
 
 
 

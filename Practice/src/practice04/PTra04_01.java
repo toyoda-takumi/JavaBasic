@@ -14,7 +14,7 @@ public class PTra04_01 {
 
 
 		// ★ 条件式に、変数numが100を超えた場合にfalseになるような条件を記述してください{
-		 if(num<=100==false) {
+		 if(num<=100) {
 
 		}else {
 

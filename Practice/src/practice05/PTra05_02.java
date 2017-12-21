@@ -21,7 +21,7 @@ public class PTra05_02 {
 		// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになって良いです
 
 		  int input =Integer.parseInt("line");
-		  
+
 
 
 
@@ -33,16 +33,22 @@ public class PTra05_02 {
 		 *
 		 *  ※##は変数inputの中身
 		 */
-		 int input
-		 input=(%2==0);
+
+
 		switch(input) {
 		case 1 :
-			System.out.println("＃＃は偶数です");
+			if(input%2==0)
+
+				System.out.println("inputは偶数です");
 			break;
 		default:
-			System.out.println("＃＃は奇数です");
-			
-		}
+			System.out.println("inputは奇数です");
 
+		}
 	}
 }
+
+
+
+
+
