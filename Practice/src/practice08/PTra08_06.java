@@ -30,11 +30,16 @@ public class PTra08_06 {
 	}
 
 	// ★ dispValueを引数intでオーバーロードしてください。処理は同じ
-
+	public static int dispValue(int x) {
+		return x;
+	}
 
 	// ★ dispValueを引数doubleでオーバーロードしてください。処理は同じ
-
-
+	public static double dispValue(double x) {
+	return x;
+	}
 	// ★ dispValueを引数charでオーバーロードしてください。処理は同じ
-
+	public static char dispValue(char x) {
+		return x;
+	}
 }
