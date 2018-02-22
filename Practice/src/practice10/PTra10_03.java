@@ -25,22 +25,35 @@ public class PTra10_03 {
 
 		// ★ java.util.Scannerクラスをインスタンス化し、変数scannerに代入してください
 		
-		 java.util.Scanner scanner = new java.util.Scanner(System.in);
-
-		
-	
-
+		java.util.Scanner scanner=new java.util.Scanner(System.in);
+			
+		  
+		  
 		// ★ 入力された値を、String型の変数lineに格納してください
+		//取得した数値()をString型に変換する分法
+		String line = scanner.nextLine();
+		
+		
+		int input =Integer.parseInt(line);
 		
 
 		// ★ 変数lineに格納されている値を','で区切り、配列にしてください（Stringクラスのメソッドを使用します）
+		//()の中身がString型として受け取られる文法
+		String[] lineSplit=line.split(",",0);
 			
-
-
+			
 		// ★ 配列にした値を、usの各フィールドに代入してください
 		// ユーザIDに該当する値が数値でなかった場合は、エラーでプログラムが止まっても良いです
-
-
+			//与えられた数値()が文字列として受け取られる
+		
+		us.userId = Integer.parseInt(lineSplit[0]);
+		
+		us.userNm = (lineSplit[1]);			
+		
+		us.mail   = (lineSplit[2]);	
+		
+		us.password = (lineSplit[3]);
+		
 		// ★ 変数usに格納されているインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
 			System.out.println(us.userId);
 			System.out.println(us.userNm);

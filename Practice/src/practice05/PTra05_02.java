@@ -20,7 +20,7 @@ public class PTra05_02 {
 		// ★ 変数inputを宣言して、変数lineを数値に変換した値を代入してください
 		// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになって良いです
 
-		  int input =Integer.parseInt("line");
+		int input = Integer.parseInt(line);
 
 
 
@@ -37,12 +37,12 @@ public class PTra05_02 {
 
 		switch(input) {
 		case 1 :
-			if(input%2==0)
+			if(input % 2 == 0)
 
-				System.out.println("inputは偶数です");
+				System.out.println(input + "は偶数です");
 			break;
 		default:
-			System.out.println("inputは奇数です");
+			System.out.println(input + "は奇数です");
 
 		}
 	}
